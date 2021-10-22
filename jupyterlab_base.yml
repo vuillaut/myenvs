@@ -9,5 +9,4 @@ dependencies:
       - jupyterlab-recents
       - jlab-enhanced-launcher
       - jupyterlab-git
-      - jupyterlab-kite>=2.0.2
       - jupyterlab-favorites
