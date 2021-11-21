@@ -1,0 +1,23 @@
+{% set name = "vuillaut" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name }}" 
+  version: "{{ version }}"
+
+requirements:
+  run:
+    - jupyterlab>=3.2
+    - ipykernel
+    - pip
+    - jupyterlab-recents
+    - jlab-enhanced-launcher
+    - jupyterlab-git
+    - jupyterlab-favorites
+
+
+about:
+  home: https://github.com/vuillaut/myenvs/
+  license: MIT Licence
+  summary: "Personnal jupyter-lab environment with extensions"
+
