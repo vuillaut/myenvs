@@ -1,4 +1,4 @@
-{% set name = "vuillaut" %}
+{% set name = "jlab" %}
 {% set version = "1.0" %}
 
 package:
@@ -20,4 +20,8 @@ about:
   home: https://github.com/vuillaut/myenvs/
   license: MIT Licence
   summary: "Personnal jupyter-lab environment with extensions"
+  
+extra:
+  recipe-maintainers:
+    - vuillaut
 
