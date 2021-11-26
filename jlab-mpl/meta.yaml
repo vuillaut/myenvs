@@ -9,7 +9,10 @@ requirements:
   run:
     - vuillaut::jlab
     - ipympl
-    - nodejs
+    - conda-forge::nodejs
+    - conda-forge/label/gcc7::nodejs
+    - conda-forge/label/cf201901::nodejs
+    - conda-forge/label/cf202003::nodejs
 
 about:
   home: https://github.com/vuillaut/myenvs/
