@@ -14,7 +14,6 @@ requirements:
     - jlab-enhanced-launcher
     - jupyterlab-git
     - jupyterlab-favorites
-    - ipympl
 
 
 about:
