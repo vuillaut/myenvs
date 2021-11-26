@@ -9,7 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        subDir: ['jlab', 'jlab-mpl']
+        subDir: [
+          # 'jlab',
+          'jlab-mpl',
+          ]
     steps:
     - uses: actions/checkout@v1
     - name: publish-to-conda
