@@ -1,0 +1,22 @@
+{% set name = "jlab-mpl" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name }}" 
+  version: "{{ version }}"
+
+requirements:
+  run:
+    - vuillaut::jlab
+    - ipympl
+    - nodejs
+
+about:
+  home: https://github.com/vuillaut/myenvs/
+  license: MIT Licence
+  summary: "Personnal jupyter-lab environment with extensions"
+  
+extra:
+  recipe-maintainers:
+    - vuillaut
+
