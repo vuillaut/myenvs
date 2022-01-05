@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        subDir: ['jlab', 'jlab-mpl', 'lstchain-v0.8.2.post1']
+        subDir: ['lstchain-v0.8.2.post1']
     steps:
     - uses: actions/checkout@v1
     - name: publish-to-conda
