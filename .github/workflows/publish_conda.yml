@@ -7,13 +7,10 @@ on: push
 jobs:
   publish:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        subDir: ['lstchain-v0.8.2.post1']
     steps:
     - uses: actions/checkout@v1
     - name: publish-to-conda
       uses: maxibor/conda-package-publish-action@v1.1
       with:
-        subDir: ${{ matrix.subDir }}'
+        subDir: 'lstchain-v0.8.2.post1'
         AnacondaToken: ${{ secrets.ANACONDA_TOKEN }}
