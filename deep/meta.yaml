@@ -1,0 +1,25 @@
+{% set name = "deep" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name }}" 
+  version: "{{ version }}"
+
+requirements:
+  run:
+    - pytorch
+    - torchvision
+    - pytorch-lightning
+    - tensorflow
+    - tensorboard
+    - scikit-learn
+    - keras
+
+about:
+  home: https://github.com/vuillaut/myenvs/
+  license: MIT Licence
+  summary: "Base deep learning env"
+  
+extra:
+  recipe-maintainers:
+    - vuillaut

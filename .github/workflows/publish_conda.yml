@@ -12,5 +12,5 @@ jobs:
     - name: publish-to-conda
       uses: maxibor/conda-package-publish-action@v1.1
       with:
-        subDir: 'lstchain-v0.8.2.post1'
+        subDir: 'deep'
         AnacondaToken: ${{ secrets.ANACONDA_TOKEN }}
