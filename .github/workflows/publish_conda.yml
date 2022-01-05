@@ -10,10 +10,10 @@ jobs:
     strategy:
       matrix:
         subDir: [
-          # 'jlab',
-          # 'jlab-mpl',
-          'lstchain-v0.8.2.post1',
-          ]
+        'jlab',
+        'jlab-mpl',
+        'lstchain-v0.8.2.post1',
+        ]
     steps:
     - uses: actions/checkout@v1
     - name: publish-to-conda
