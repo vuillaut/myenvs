@@ -11,7 +11,8 @@ jobs:
       matrix:
         subDir: [
           # 'jlab',
-          'jlab-mpl',
+          # 'jlab-mpl',
+          'lstchain-v.0.8.2.post1',
           ]
     steps:
     - uses: actions/checkout@v1
