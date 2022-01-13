@@ -15,7 +15,6 @@ requirements:
     - jupyterlab-git
     - jupyterlab-favorites
     - conda-forge::nodejs
-    - jupyterlab-snippets
 
 
 about:
