@@ -1,0 +1,26 @@
+{% set name = "sci" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name }}" 
+  version: "{{ version }}"
+
+requirements:
+  run:
+    - vuillaut::jlab
+    - numpy
+    - pandas
+    - scipy
+    - astropy
+    - matplotlib
+
+
+about:
+  home: https://github.com/vuillaut/myenvs/
+  license: MIT Licence
+  summary: "Personnal base scientific environment"
+  
+extra:
+  recipe-maintainers:
+    - vuillaut
+
