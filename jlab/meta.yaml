@@ -1,5 +1,5 @@
 {% set name = "jlab" %}
-{% set version = "1.1" %}
+{% set version = "1.2" %}
 
 package:
   name: "{{ name }}" 
@@ -15,6 +15,7 @@ requirements:
     - jupyterlab-git
     - jupyterlab-favorites
     - conda-forge::nodejs
+    - jupyterlab_templates
 
 
 about:
