@@ -1,6 +1,8 @@
 # myenvs
 Some personal environments (conda, pip, juypter...)
 
+https://anaconda.org/vuillaut/dashboard
+
 ## Add channel to config:
 ```
 conda config --add channels vuillaut
